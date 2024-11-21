@@ -3,9 +3,9 @@ from keras import layers, models
 import matplotlib.pyplot as plt
 
 # Paths to the datasets
-train_dir = "D:/injured animal/train"
-val_dir = "D:/injured animal/valid"
-test_dir = "D:/injured animal/test"
+train_dir = "train/injured"
+val_dir = "valid/injured"
+test_dir = "test/injured"
 
 # Image dimensions and batch size
 img_size = (128, 128)  # Resize images to 128x128
